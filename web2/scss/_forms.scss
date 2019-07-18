@@ -1,0 +1,15 @@
+input{
+  padding: 10px;
+  border-radius: 8px;
+  border: #1f1f1f;
+  background: #1f1f1f;
+  &::placeholder{
+    color: $inputColor;
+  }
+}
+input[type=submit]{
+  border: #3bafbe;
+  background: #3bafbe;
+  text-transform: uppercase;
+  color: $inputColor;
+}

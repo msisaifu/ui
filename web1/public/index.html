@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css"> 
+	</head>
+	<body>
+		<aside>
+	     <figure>
+	      <div id="avatar"></div>
+	      <figcaption>John Doe</figcaption>
+	    </figure>
+	    <img src="images/menu.svg" alt="" @click="isActive = !isActive">
+	    <nav>
+	      <ul :class="{active: isActive}">
+	        <li><a href="#">Home</a></li>
+	        <li><a href="#">About</a></li>
+	        <li><a href="#">Portfolio</a></li>
+	        <li><a href="#">Contact</a></li>
+	      </ul>
+	    </nav>
+	  </aside>
+	  <main>
+	    <h1>I'm a designer of things</h1>
+	    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam reprehenderit nesciunt omnis. Praesentium accusantium provident necessitatibus at? Asperiores, ut soluta?</p>
+	    <a href="" class="cta">my portfolio</a>
+	  </main>
+	</body>
+</html>
